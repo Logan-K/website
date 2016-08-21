@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <section>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="http://personal_site.com/wp-content/uploads/2016/08/20150710_142109.jpeg" data-natural-width="2560" data-natural-height="1440" data-bleed="10" data-speed="0.2" style="height:700px"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="http://personal_site.com/wp-content/uploads/2016/08/20150710_142109-e1471814510740.jpeg" data-natural-width="2560" data-natural-height="1440" data-bleed="10" data-speed="0.2" style="height:700px"></div>
 </section>
 
 <section style="margin-top: 1em;">
