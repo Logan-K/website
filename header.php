@@ -21,11 +21,11 @@
 <body <?php body_class(); ?>>
 
 
-  <div class="parent2">
-  <div class="test1"><i class="fa fa-user fa-2x"></i></div>
-  <div class="test2"><i class="fa fa-graduation-cap fa-2x"></i></div>
-  <div class="test3"><i class="fa fa-code fa-2x"></i></div>
-  <div class="test4"><i class="fa fa-envelope-o fa-2x"></i></div>
-  <div class="mask2"><i class="fa fa-home fa-3x"></i></div>
+  <div class="parent2 nav-menu-item">
+  <div class="test1"><a class="nav-menu-item" href="/?page_id=10"><i class="fa fa-user fa-2x"></i></a></div>
+  <div class="test2"><a class="nav-menu-item" href="#"><i class="fa fa-graduation-cap fa-2x"></i></a></div>
+  <div class="test3"><a class="nav-menu-item" href="#"><i class="fa fa-code fa-2x"></i></a></div>
+  <div class="test4"><a class="nav-menu-item" href="#"><i class="fa fa-envelope-o fa-2x"></i></a></div>
+  <div class="mask2"><a class="nav-menu-item" href="#"><i class="fa fa-home fa-3x"></i></a></div>
 </div>
 <div id="content" class="site-content">

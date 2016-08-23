@@ -45,6 +45,16 @@ html {
 	font-size: 32px;
 }
 
+.nav-menu-item:visited > i {
+	color: white;
+}
+
+.nav-menu-item:active > i {
+	color: white;
+}
+
+
+
 
 /* Overwriting nav styles */
 .mask2 {
