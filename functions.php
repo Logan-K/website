@@ -8,6 +8,8 @@ function js_scripts() {
     wp_enqueue_script( 'parallax-scroll' );
     wp_register_script( 'navbar' , get_template_directory_uri() . '/assets/js/navbar.js', array(), 1.0, false );
     wp_enqueue_script( 'navbar' );
+    wp_register_script( 'particles', get_template_directory_uri() . '/assets/js/particles/jquery.particleground.js', array(), '', false );
+    wp_enqueue_script( 'particles' );
 }
 add_action( 'wp_enqueue_scripts', 'js_scripts' );
 

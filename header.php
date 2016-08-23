@@ -6,7 +6,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js">
+<html <?php language_attributes(); ?> class="no-js" style="margin-top: 0 !important">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div style="height:100px; background-color: blue"></div>
+
 
   <div class="parent2">
   <div class="test1"><i class="fa fa-user fa-2x"></i></div>
