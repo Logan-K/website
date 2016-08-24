@@ -15,6 +15,7 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php endif; ?>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 

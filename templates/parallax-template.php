@@ -8,17 +8,32 @@
 get_header(); ?>
 
 <section>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="http://personal_site.com/wp-content/uploads/2016/08/20150710_142109-e1471814510740.jpeg" data-natural-width="2560" data-natural-height="1440" data-bleed="10" data-speed="0.2" style="height:700px"></div>
+    <div id="particle-header" style="height:190px; width: 100%; background-color:  #3399ff;">
+        <h1 class="texting">A little about myself</h1>
+    </div>
+</section>
+
+
+<section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="http://personal_site.com/wp-content/uploads/2016/08/20150525_200256.jpg" data-natural-width="2560" data-natural-height="1440" data-bleed="10" data-speed="0.2" style="height:700px"></div>
 </section>
 
 <section style="margin-top: 1em;">
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                <h1><?php echo the_title(); ?></h1>
-                <h2>Test</h2>
+                <h1><?php //echo the_title(); ?></h1>
                 <?php echo the_content(); ?>
             <?php endwhile; endif; ?>
+            <div class="container">
+                <div class="col-md-6">
+                    <h2>I am currently living in Orange, Virginia enjoying the web world. I am a web developer by day and web freelancer in the evenings. </h2>
+                </div>
+                <div class="col-md-6">
+                    here
+                </div>
+
+            </div>
         </main>
     </div>
 </section>
@@ -72,4 +87,20 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 
+<script>
+    jQuery(document).ready(function() {
+        jQuery('.texting').textillate();
+    });
 
+    jQuery(document).ready(function() {
+        jQuery('#particle-header').particleground({
+            dotColor: '#000000',
+            lineColor: '#000000',
+            parallax: false,
+            proximity: 10,
+
+
+        });
+    });
+
+</script>
